@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<form name="formThemSinhVien" action="../Controller/C_QLNSPB.php?submitInsert=1" method="GET">
+        <h1 style="text-align: center;">THÔNG TIN CỦA SINH VIÊN</h1>
+
+        <div class="content"  style="margin-left: 40%;">
+            <div id="Idnv" style="margin-bottom: 10px;">
+                <label for="idnv">IDNV</label>
+                <input type="text" name="idnv" style="margin-left: 30px">
+            </div>
+
+            <div id="Hoten" style="margin-bottom: 10px;">
+                <label for="hoten">Họ Và Tên</label>
+                <input type="text" name="hoten">
+            </div>
+
+            <div id="Diachi" style="margin-bottom: 10px;">
+                <label for="diachi">Địa Chỉ</label>
+                <input type="text" name="diachi" style="margin-left: 20px;" >
+            </div>
+
+            <div id="Idpb" style="margin-bottom: 10px;">
+                <label for="idpb">IDPB</label>
+                <input type="text" name="idpb" style="margin-left: 35px;">
+            </div>
+
+            <div id="Buttonn"  style="margin-left: 50px;">
+                <input type="submit" name="submitInsert" value="OK">
+                <input type="reset" value="Reset" >
+            </div>
+            <a href="../View/PageFunction.php" >Home Page</a>
+        </div>
+    </form>
+</body>
+</html>
